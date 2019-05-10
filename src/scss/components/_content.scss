@@ -1,0 +1,9 @@
+.content {
+    background-color: $c-gray;
+    flex: 1 1;
+    margin-bottom: 15px;
+
+    &:last-child {
+       margin-bottom: 0;
+    }
+}
