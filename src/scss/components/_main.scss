@@ -4,4 +4,8 @@
     min-height: 400px;
     display: flex;
     flex-direction: column;
+
+    @media (min-width: 900px) {
+        flex-direction: row;
+    }
 }
