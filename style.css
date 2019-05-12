@@ -20,14 +20,14 @@ body {
   width: 100%;
   margin-bottom: 15px; }
 
-.main {
+.major {
   width: 100%;
   height: calc(100% - 230px);
   min-height: 400px;
   display: flex;
   flex-direction: column; }
   @media (min-width: 900px) {
-    .main {
+    .major {
       flex-direction: row; } }
 
 .sidebar {
@@ -73,7 +73,7 @@ body {
         margin-bottom: 0; }
       .content:nth-child(odd) {
         margin-right: 15px; } }
-  @media (min-width: 900px) {
+  @media (min-width: 1200px) {
     .content {
       width: calc(1/3 * 100% - 10px);
       margin-right: 15px; }
